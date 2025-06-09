@@ -25,7 +25,6 @@ public class ControllerActor {
     FormActor frame;
     IActor implActor;
     List<Actor> la;
-    SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
     
     public ControllerActor(FormActor frame)
     {
@@ -59,7 +58,7 @@ public class ControllerActor {
         frame.getTxtBiography().setText(la.get(row).getBiography());
     }
     
-    public void insert() throws ParseException
+    public void insert()
     {
         if (!frame.getTxtName().getText().trim().isEmpty() && 
             !frame.getTxtBirthday().getText().trim().isEmpty() &&
@@ -81,7 +80,7 @@ public class ControllerActor {
         }
     }
     
-    public void update() throws ParseException
+    public void update()
     {
         if (!frame.getTxtID().getText().trim().isEmpty()) {
             Actor actor = new Actor();
@@ -89,7 +88,8 @@ public class ControllerActor {
             actor.setBirthDate(frame.getTxtBirthday().getText());
             actor.setNationality(frame.getTxtNationality().getText());
             actor.setBiography(frame.getTxtBiography().getText());
-            implActor.insert(actor);
+            actor.setId(Integer.parseInt(frame.getTxtID().getText()));
+            implActor.update(actor);
             JOptionPane.showMessageDialog(null, "Update Data sukses");
         } 
         else 

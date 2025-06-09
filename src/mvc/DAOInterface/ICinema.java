@@ -4,10 +4,18 @@
  */
 package mvc.DAOInterface;
 
+import java.util.List;
+import mvc.Model.Cinema;
+
 /**
  *
  * @author ACER
  */
 public interface ICinema {
-    
+    public void insert(Cinema cinema);
+    public void update(Cinema cinema);
+    public void delete(int ID);
+    public List<Cinema> getAll();
+    public List<Cinema> getCariCinema(String NamaCinema);
 }
+

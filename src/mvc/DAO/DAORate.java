@@ -74,6 +74,7 @@ public class DAORate implements IRate{
             statement.setString(1, rate.getTitle());
             statement.setDouble(2, rate.getRating());
             statement.setString(3, rate.getReview());
+            statement.setInt(4, rate.getID());
             statement.executeUpdate();
         } 
         catch (SQLException ex) 

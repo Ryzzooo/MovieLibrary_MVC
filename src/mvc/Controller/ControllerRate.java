@@ -82,7 +82,8 @@ public class ControllerRate {
             rate.setTitle(frame.getTxtTitle().getText());
             rate.setRating(Double.parseDouble(frame.getTxtRating().getText()));
             rate.setReview(frame.getTxtReview().getText());
-            implRate.insert(rate);
+            rate.setId(Integer.parseInt(frame.getTxtID().getText()));
+            implRate.update(rate);
             JOptionPane.showMessageDialog(null, "Update Data sukses");
         } 
         else 

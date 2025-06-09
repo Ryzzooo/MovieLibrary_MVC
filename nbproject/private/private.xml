@@ -2,6 +2,34 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/D:/OOP/Abstract/MovieLibrary_MVC/src/mvc/Controller/ControllerCinema.java</file>
+            <file>file:/D:/OOP/Abstract/MovieLibrary_MVC/src/mvc/DAO/DAOCinema.java</file>
+            <file>file:/D:/OOP/Abstract/MovieLibrary_MVC/src/mvc/DAOInterface/ICinema.java</file>
+            <file>file:/D:/OOP/Abstract/MovieLibrary_MVC/src/mvc/Model/Cinema.java</file>
+            <file>file:/D:/OOP/Abstract/MovieLibrary_MVC/src/mvc/Model/TabelModelCinema.java</file>
+            <file>file:/D:/OOP/Abstract/MovieLibrary_MVC/src/mvc/View/FormCinema.java</file>
+            <file>file:/D:/OOP/Abstract/MovieLibrary_MVC/src/mvc/DAO/DAOActor.java</file>
+            <file>file:/D:/OOP/Abstract/MovieLibrary_MVC/src/mvc/Controller/ControllerActor.java</file>
+            <file>file:/D:/OOP/Abstract/MovieLibrary_MVC/src/mvc/DAOInterface/ILogin.java</file>
+            <file>file:/D:/OOP/Abstract/MovieLibrary_MVC/src/mvc/View/FormLogin.java</file>
+            <file>file:/D:/OOP/Abstract/MovieLibrary_MVC/src/mvc/View/FormMovie.java</file>
+            <file>file:/D:/OOP/Abstract/MovieLibrary_MVC/src/mvc/Model/TabelModelMovie.java</file>
+            <file>file:/D:/OOP/Abstract/MovieLibrary_MVC/src/mvc/View/FormHome.java</file>
+            <file>file:/D:/OOP/Abstract/MovieLibrary_MVC/src/mvc/DAOInterface/IActor.java</file>
+            <file>file:/D:/OOP/Abstract/MovieLibrary_MVC/src/mvc/Model/Actor.java</file>
+            <file>file:/D:/OOP/Abstract/MovieLibrary_MVC/src/mvc/Model/TabelModelActor.java</file>
+            <file>file:/D:/OOP/Abstract/MovieLibrary_MVC/src/mvc/Controller/ControllerMovie.java</file>
+            <file>file:/D:/OOP/Abstract/MovieLibrary_MVC/src/mvc/DAO/DAOMovie.java</file>
+            <file>file:/D:/OOP/Abstract/MovieLibrary_MVC/src/mvc/Controller/ControllerLogin.java</file>
+            <file>file:/D:/OOP/Abstract/MovieLibrary_MVC/src/mvc/DAOInterface/IMovie.java</file>
+            <file>file:/D:/OOP/Abstract/MovieLibrary_MVC/src/mvc/DAO/DAOLogin.java</file>
+            <file>file:/D:/OOP/Abstract/MovieLibrary_MVC/src/mvc/Controller/ControllerRate.java</file>
+            <file>file:/D:/OOP/Abstract/MovieLibrary_MVC/src/mvc/Model/Movie.java</file>
+            <file>file:/D:/OOP/Abstract/MovieLibrary_MVC/src/mvc/Model/Rate.java</file>
+            <file>file:/D:/OOP/Abstract/MovieLibrary_MVC/src/mvc/DAOInterface/IRate.java</file>
+            <file>file:/D:/OOP/Abstract/MovieLibrary_MVC/src/mvc/DAO/DAORate.java</file>
+            <file>file:/D:/OOP/Abstract/MovieLibrary_MVC/src/mvc/View/FormActor.java</file>
+        </group>
     </open-files>
 </project-private>

@@ -295,12 +295,7 @@ public class FormActor extends javax.swing.JFrame {
     }//GEN-LAST:event_btnCariActorActionPerformed
 
     private void btnInsertActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnInsertActionPerformed
-        try {
-            // TODO add your handling code here:
-            ca.insert();
-        } catch (ParseException ex) {
-            Logger.getLogger(FormActor.class.getName()).log(Level.SEVERE, null, ex);
-        }
+        ca.insert();
         ca.isiTable();
         ca.reset();
     }//GEN-LAST:event_btnInsertActionPerformed
@@ -313,12 +308,9 @@ public class FormActor extends javax.swing.JFrame {
     }//GEN-LAST:event_btnDeleteActionPerformed
 
     private void btnUpdateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUpdateActionPerformed
-        try {
+        
             // TODO add your handling code here:
-            ca.update();
-        } catch (ParseException ex) {
-            Logger.getLogger(FormActor.class.getName()).log(Level.SEVERE, null, ex);
-        }
+        ca.update();
         ca.isiTable();
         ca.reset();
     }//GEN-LAST:event_btnUpdateActionPerformed

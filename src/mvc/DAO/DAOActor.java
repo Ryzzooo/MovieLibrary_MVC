@@ -24,7 +24,7 @@ import mvc.Model.Actor;
 public class DAOActor implements IActor{
     Connection connection;
     final String insert = "INSERT INTO tblactors (name, birth_date, nationality, biography) VALUES (?, ?, ?, ?)";
-    final String update = "UPDATE tblactors SET name=?, birth_date=?, nationality=?, biography=?, WHERE id=?";
+    final String update = "UPDATE tblactors SET name=?, birth_date=?, nationality=?, biography=? WHERE id=?";
     final String delete = "DELETE FROM tblactors WHERE id=?";
     final String select = "SELECT * FROM tblactors";
     final String carinama = "SELECT * FROM tblactors WHERE name LIKE ?";
@@ -78,11 +78,12 @@ public class DAOActor implements IActor{
             statement.setString(2, actor.getBirthDate());
             statement.setString(3, actor.getNationality());
             statement.setString(4, actor.getBiography());
+            statement.setInt(5, actor.getId());
             statement.executeUpdate();
         } 
         catch (SQLException ex) 
         {
-            System.out.println("Berhasil Update");
+            ex.printStackTrace();
         } 
         finally 
         {

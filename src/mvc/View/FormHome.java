@@ -58,6 +58,11 @@ public class FormHome extends javax.swing.JFrame {
         jLabel2.setText("HOME ");
 
         jButton3.setText("Cinema");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
 
         Rate.setText("Rate");
         Rate.addActionListener(new java.awt.event.ActionListener() {
@@ -143,6 +148,15 @@ public class FormHome extends javax.swing.JFrame {
         fr.setLocationRelativeTo(null);
         this.dispose();
     }//GEN-LAST:event_RateActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        // TODO add your handling code here:
+        FormCinema fc = new FormCinema();
+        this.dispose();
+        fc.setVisible(true);
+        fc.pack();
+        fc.setLocationRelativeTo(null);
+    }//GEN-LAST:event_jButton3ActionPerformed
 
     /**
      * @param args the command line arguments
